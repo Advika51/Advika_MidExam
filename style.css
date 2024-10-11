@@ -1,0 +1,646 @@
+
+
+.logo {
+    float:left;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color: white; 
+    padding: 0 90px; 
+    
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    height: 20px; 
+    width:100%;
+}
+
+
+.nav_links {
+    float: right;
+    padding: 0;
+    margin:0;
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+
+.nav_links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    padding: 0 15px ;
+    border-radius: 5px;
+   
+}
+
+.nav_links a:hover {
+    background-color: #00bcd4;
+}
+
+
+
+.section{
+    padding:20px 45px 10px ; 
+ 
+  }
+
+ 
+img{
+    float: left;
+    margin-right: 60px;
+    margin-left:30px;
+    max-width: 250px;
+    min-height: 250px; 
+    margin-top: 20px; 
+    
+  }
+
+  .about-text{
+    margin-left:80px;
+    margin-top: 5px;
+  }
+
+
+ h1 {
+    font-size: 32px; 
+    margin-bottom: 10px;
+}
+
+
+ p {
+     font-size: 18px; 
+  }
+
+
+
+.paper-box {
+     display: inline-block;
+     background-color: #B3A3A3;
+     padding: 20px;
+     margin: 20px;
+     border-radius: 10px;
+     width: 350px; 
+     height:150px;
+     box-sizing: border-box;
+     vertical-align: top;
+    }
+
+        
+ .paper-box a {
+            text-decoration: none;
+        }
+
+        
+  .paper-box p:first-child {
+            font-weight: bold;
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 10px;
+     }
+
+
+     .paper-box p:last-child {
+            font-style: italic;
+            color: #fff;;
+        }
+
+        
+     .paper-box:hover {
+            
+            background-color: #66B2A0;
+        }
+
+        
+    .image {
+            display: inline-block;
+            margin:40px 80px 0;
+            
+    }
+        
+    .image-thumbnail {
+            margin-right:5px;
+            width: 200px; 
+            height: 200px;
+            object-fit: cover; 
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+    }
+
+     h2{
+            font-size: 20px; 
+            margin-bottom: 0px;
+            text-align: center;
+        
+     }
+      
+     .blogs_list {
+        text-align: center; 
+        padding: 20px;
+    }
+    
+    .blogs_list .blogs_card {
+        display: inline-block; 
+        width:200px;
+        margin: 0 60px;
+        
+    }
+      .blogs_img {
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+        margin-bottom: 20px;
+      }
+   
+      .blogs_link {
+        display: inline-block; 
+        font-weight: bold; 
+        margin: 0px 20px 0 85px; 
+        text-align:center;
+    }
+
+    .social-icons li {
+        display:inline-block;
+         margin: 0 10px;
+    }
+
+  .social-icons a {
+         text-decoration: none;
+         color: #fff;
+         align-items: center;
+    }
+
+    footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            
+     }
+
+   
+    
+     .img-container,.blogs_list
+    {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr; 
+       grid-gap:1em;
+       
+    }
+
+    .social-icons {
+        font-size: 26px; 
+        align-items: center;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+     }
+    .p-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 2fr 2fr; 
+        gap: 20px;
+    }
+
+    #about{
+            background-color: #fbe3e8; 
+            min-height: 320px;
+            padding: 20px;
+           
+            
+             
+           
+     }
+ 
+     #papers{   
+            background-color: #FEF1E9; 
+            height: 470px;
+            padding: 20px;
+            
+            text-align: center;
+    }
+
+
+     #images{
+            background-color: #fbe3e8; 
+            height: 420px;
+            text-align: center;
+            padding: 20px;
+            
+            
+    }
+
+
+    #experience{
+            background-color: #FEF1E9; 
+            height: 380px;
+            text-align: center;
+            padding: 20px;
+           
+    }
+
+    #blogs{
+        background-color: #fbe3e8; 
+        height: 410px;
+        text-align: center;
+        padding: 20px;
+        
+}
+ 
+
+@media screen and (max-width: 800px) {
+    
+          .logo{
+            display:none;
+        
+
+          }
+
+          nav{
+            height:150px;
+          }
+          
+          .nav_links {
+            float: none; 
+            display: block;
+            text-align: center;
+            align-items: center;
+            
+        }
+    
+        
+        .nav_links li {
+            display: block; 
+            margin: 10px 0; 
+        }
+    
+           .section{
+            display:block;
+           }
+
+           .p-container,.img-container,.blogs_list {
+            grid-template-columns: 1fr; 
+            text-align: center;
+        }
+
+        img{
+            float:none;
+            text-align: center;
+            margin-left:60px;
+        }
+       
+
+        .about-text{
+            margin-right: 90px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+       .p-container{
+        justify-items: center; 
+        align-items: center; 
+        }
+
+        .blogs_list{
+            justify-items: center; 
+            margin-right:90px;
+        }
+
+        .blogs_link{
+            margin-left:100px;
+            margin-right:0px;
+        }
+
+        
+        #about
+        {
+            text-align: center;
+        }
+        #papers{
+            height:1350px;
+            text-align: center;
+
+        }
+
+        #images{
+            height:1190px;
+            text-align: center;
+        }
+        
+        #experience{
+            height:700px;
+        }
+        
+        #blogs
+        {
+            height:1150px;
+            text-align: center;
+        }
+
+
+          
+
+                          
+      }
+
+      @media screen and (max-width: 500px) {
+    
+        .logo{
+          display:none;
+      
+
+        }
+
+        nav{
+          height:150px;
+        }
+        
+        .nav_links {
+          float: none; 
+          display: block;
+          text-align: center;
+          align-items: center;
+          
+      }
+  
+      
+      .nav_links li {
+          display: block; 
+          margin: 10px 0; 
+      }
+  
+         .section{
+          display:block;
+         }
+
+         .paper-box {
+            display: inline-block;
+            background-color: #B3A3A3;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 280px; 
+            height:180px;
+            box-sizing: border-box;
+            vertical-align: top;
+           }
+         .p-container {
+          grid-template-columns: 1fr; 
+          text-align: center;
+      }
+
+      img{
+          float:none;
+          text-align: center;
+          margin-left:60px;
+      }
+     
+
+      .about-text{
+          margin-right: 90px;
+      }
+
+      h1{
+          text-align: center;
+      }
+
+     .p-container{
+      justify-items: center; 
+      align-items: center; 
+      }
+
+      .blogs_list{
+          justify-items: center; 
+          margin-right:90px;
+      }
+
+      .blogs_link{
+          margin-left:100px;
+          margin-right:0px;
+      }
+
+      
+      #about
+      {
+          text-align: center;
+      }
+      #papers{
+          height:1500px;
+          text-align: center;
+
+      }
+
+      #images{
+          height:1190px;
+          text-align: center;
+      }
+      
+      #experience{
+          height:1000px;
+      }
+      
+      #blogs
+      {
+          height:1150px;
+          text-align: center;
+          width: auto;
+      }
+
+      
+
+      .blogs_list{
+        display:inline-block;
+        margin-right: 100px;
+        padding: 0;
+      }
+      
+      .img-container{
+        display:inline-block;
+        padding: 0;
+      }
+
+      .image {
+        display: inline-block;
+        margin:10px 20px 0;
+      }
+        
+
+        .blogs_list .blogs_card {
+            display: inline-block; 
+            width:200px;
+            margin: 0 30px;
+            
+        }
+}
+    
+        
+
+
+
+       
+
+                        
+    
+
+      
+
+
+ @media screen and (min-width: 800px) and (max-width: 1000px) { 
+    
+    .logo{
+        display:none;
+    
+
+      }
+
+      nav{
+        height:30px;
+      }
+      .nav_links {
+        float: none; 
+        display: block;
+        text-align: center;
+        align-items: center;
+        
+    }
+    
+    .section{
+        display:block;
+       }
+       
+    
+      
+    .p-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ; 
+        grid-template-rows: 2fr 2fr 2fr; 
+        gap: 20px; 
+    }
+
+    .img-container,.blogs_list {
+        display: grid;
+        grid-template-columns: 2fr 1fr ; 
+        grid-template-rows: 2fr 2fr; 
+        gap: 20px;
+    }
+    img{
+        float:none;
+        text-align: center;
+        margin-left:60px;
+        
+    }
+
+    .about-text{
+        margin-right: 85px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+    .p-container{
+    justify-items: center; 
+    align-items: center; 
+    }
+
+    
+
+    
+    #about
+    {
+        text-align: center;
+    }
+    #papers{
+        height:850px;
+        text-align: center;
+
+    }
+
+    #images{
+        height:900px;
+        text-align: center;
+    }
+    
+    #experience{
+        height:500px;
+    }
+    
+    #blogs
+    {
+        height:900px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) { 
+    
+    img{
+       
+        height: 320px; 
+        
+        
+      }
+
+      .p-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ; 
+        grid-template-rows: 2fr 2fr 2fr; 
+        gap: 80px;
+    }
+    #papers{
+        height:800px;
+        text-align: center;
+
+    }
+    .img-container {
+        display:inline-block;
+        margin: 0;
+        
+    }
+    img{
+        float:none;
+        text-align: center;
+        margin-left:60px;
+        
+    }
+    #images{
+        height:900px;
+        text-align: center;
+    }
+
+    #experience{
+        height:400px;
+    }
+
+    .blogs_list{
+        display:inline-block;
+        margin: 0;
+       
+    }
+   
+
+    #blogs
+    {
+        height:850px;
+        text-align: center;
+    }
+
+}
+      
+
+                      
+  
+        
+        
